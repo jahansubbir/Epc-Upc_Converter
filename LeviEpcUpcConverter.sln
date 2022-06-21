@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviEpcUpcConverter", "LeviEpcUpcConverter\LeviEpcUpcConverter.csproj", "{08CCF026-9972-457A-BF8E-B62C4A009FAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08CCF026-9972-457A-BF8E-B62C4A009FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CCF026-9972-457A-BF8E-B62C4A009FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CCF026-9972-457A-BF8E-B62C4A009FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CCF026-9972-457A-BF8E-B62C4A009FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6C1031D-BCE3-414A-8D76-FAD60C7E02B3}
+	EndGlobalSection
+EndGlobal

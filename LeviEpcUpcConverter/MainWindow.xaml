@@ -1,0 +1,32 @@
+﻿<Window x:Class="LeviEpcUpcConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeviEpcUpcConverter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="620">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" Width="500" Height="420" Name="EpcGrid" Padding="10">
+            <DataGrid.Background>
+                <SolidColorBrush Color="SkyBlue"></SolidColorBrush></DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="Epc" Header="EPC" Width="250" Binding="{Binding Path=Epc}"></DataGridTextColumn>
+                <DataGridTextColumn x:Name="Upc" Header="UPC" Width="250" Binding="{Binding Path=Upc}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Name="PasteButton" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="30" Content="Paste"  Click="PasteButton_Click">
+            <Button.Margin>
+                <Thickness Right="10" Top="20"></Thickness>
+            </Button.Margin>
+            <Button.Background>
+                <SolidColorBrush Color="SkyBlue"></SolidColorBrush></Button.Background>
+           
+        </Button>
+        <Button Name="ConvertButton" Click="ConvertButton_Click" Background="SkyBlue" Width="100" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Content="Convert" >
+            <Button.Margin>
+                <Thickness Right="10" Top="90"></Thickness>
+            </Button.Margin>
+        </Button>
+    </Grid>
+</Window>
